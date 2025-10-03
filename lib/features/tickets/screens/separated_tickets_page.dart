@@ -37,7 +37,7 @@ class _SeparatedTicketsPageState extends State<SeparatedTicketsPage> {
               ],
             ),
           ),
-          Expanded(
+          Expanded(ddd
             child: repo.tickets.isEmpty
                 ? const Center(child: Text('Нет тикетов'))
                 : ListView.separated(
